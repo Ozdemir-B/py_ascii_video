@@ -23,11 +23,8 @@ def convert_frame(frame):
             text += '\n'
         return text
 
-
 def video_capture(size_scale):
-    # define a video capture object
     vid = cv2.VideoCapture(0)
-    
     while(vid.isOpened()):
         time.sleep(0.1)
         ret, frame = vid.read()
