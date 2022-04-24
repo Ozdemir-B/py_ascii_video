@@ -1,0 +1,1 @@
+python3 main.py --size_scale 0.5
